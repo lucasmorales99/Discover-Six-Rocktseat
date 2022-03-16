@@ -1,5 +1,5 @@
 .content {
-  max-width: 80%;
+  max-width: min(112rem, 80%);
 }
 
 #room header {
@@ -48,6 +48,8 @@
   border: 0.2rem solid var(--grey-blue);
   padding: 1.6rem;
   border-radius: 0 0.8rem 0.8rem 0.8rem;
+
+  margin-bottom: 1.6rem;
 }
 
 #question-form form textarea {
@@ -68,4 +70,25 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#question-form form footer > div {
+  /*Quando eu coloco > eu quero dizer que qero pegar as filhas que são div de footer e não divs netas de footer*/
+  color: var(--icons-details);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+
+  display: flex;
+  align-items: center;
+}
+
+#question-form form footer > div img {
+  margin-right: 0.9rem;
+}
+
+#question-form form footer button {
+  height: auto;
+  padding: 0.8rem 2.4rem;
+  line-height: 2.4rem; /*é o preenchimento em volta do button*/
 }
