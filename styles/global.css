@@ -27,6 +27,7 @@ html {
 }
 
 body {
+  display: flex;
   height: 100vh; /*View height- colocamos isso pq não havera rolagem e sim uma pagina inteira*/
   background: var(--background);
 }
