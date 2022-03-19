@@ -103,7 +103,7 @@
 
 .question-wrapper .question-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .question-wrapper .question-content .user {
@@ -114,6 +114,10 @@
 
 .question-wrapper .question-content p {
   margin-left: 1.6rem;
+  word-break: break-word; /*Se caso alguem colocar uma palavra muito grande o layout não vai quebrar*/
+  display: flex;
+  align-items: center;
+  min-height: 5.2rem;
 }
 
 .question-wrapper .actions {
@@ -134,4 +138,13 @@
 .question-wrapper .actions > a + a {
   /*O "+" ele pega o proximo irmão do seletor e vc espcifica ali no caso é o outro "a" */
   margin-left: 2.9rem;
+}
+
+/*****Question Read*************/
+.question-wrapper.read {
+  background: var(--grey-medium);
+}
+
+.question-wrapper.read .question-content .user {
+  background: var(--grey-dark);
 }
