@@ -1,0 +1,25 @@
+{
+  "name": "discovery-6",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionais ao dono da página.Projeto desenvolvido na smeana NLW Rocktseat na missão Discover",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmorales99/Discover-Six-Rocktseat.git"
+    
+  },
+  "keywords": [],
+  "author": "Wellington Lucas Ferreira Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmorales99/Discover-Six-Rocktseat/issues"
+  },
+  "homepage": "https://github.com/lucasmorales99/Discover-Six-Rocktseat#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}
