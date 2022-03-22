@@ -10,7 +10,7 @@ html {
   /*==========COLORS============*/
   --black: #0d114f;
   --white: #fafafa;
-  --rede: #e83f5b;
+  --red: #e83f5b;
   --light-blue: #e0ecff;
   --blue: #2485ff;
   --background: #f6faff;
@@ -103,6 +103,18 @@ button.outlined,
   background: var(--white);
   color: var(--blue);
   border: 0.2rem solid var(--blue);
+}
+
+button.red,
+.button.red {
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey,
+.button.grey {
+  background: var(--grey-light);
+  color: var(--grey-dark);
 }
 
 /*=================HEADER==================*/
